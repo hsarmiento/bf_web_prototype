@@ -1,0 +1,189 @@
+
+
+html, body {
+	height: 100%;
+}
+
+h1{
+	text-align: center;
+}
+
+
+footer{
+    width: 80%;
+    bottom: 0;
+    border: solid grey 2px;
+    margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	margin-top: 1%;
+}
+
+
+.success{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin: 0 10% 0.5% 10%;
+	border: green 1px solid;
+	height: 5%;
+	text-align: center;
+	/*padding-left: 100px;*/
+}
+
+/* INICIO INDEX PRINCIPAL */
+
+.option_entry{
+	/*margin-left: 10%;
+	margin-right: 10%;*/
+	margin: 100px 30% 0 30%;
+	border: solid 1px blue;
+	width: 40%;
+
+}
+.male_option{
+	margin-left: 30%;
+	display: inline-block;
+	width: 20%;
+}
+.femme_option{
+	margin-left: 50px;
+	display: inline-block;
+	width: 20%;
+}
+
+/* FIN INDEX PRINCIPAL */
+
+
+
+/* INICIO INDEX PROMOS */
+header{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: green solid 1px;
+	margin-bottom: 50px;
+	height: 9%;
+}
+
+.home-logo{
+	width: 10%;
+	border: solid 1px brown;
+	height: 100%;
+	display: inline-block;
+}
+
+.categories{
+	width: 35%;
+	border: solid 1px brown;
+	display: inline-block;
+	margin-left: 20%;
+}
+
+.profile-container{
+	width: 10%;
+	border: solid 1px brown;
+	display: inline-block;
+	float:right;
+}
+
+
+.container{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: blue 1px solid;
+	height: auto;
+	padding-bottom: 45px;
+	/*padding-left: 100px;*/
+}
+
+.index-container{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: blue 1px solid;
+	height: 60%;
+	padding-bottom: 45px;
+}
+
+.box-promos{
+	width: 80%;
+	height: auto;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 20px;
+	border: green 1px solid;
+	margin-bottom: 20px;
+}
+
+.promo{
+	width: 350px;
+	height: 250px;
+	margin-left: 100px;
+	margin-right: 20px;
+	margin-top: 45px;
+	border: 1px solid red;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.promo:hover{
+	opacity: 0.5;
+	transition: visibility 0s 4s, opacity 0.05s linear;
+}
+
+/* FIN INDEX PROMOS */
+
+
+/* INICIO USER PROFILE */
+
+.promo-participate{
+	width: 40%;
+	border: solid 1px orange;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+.promo-participate li{
+	margin-right: 4%;
+}
+
+.promo-expired{
+	width: 40%;
+	border: solid 1px orange;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+.see_more{
+	cursor: pointer;
+	color:blue;
+    text-decoration:underline;
+}
+
+/* FIN USER PROFILE */
+
+/*INICIO USER EDIT */
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+}	
+
+.error{
+	display: inline-block;
+	margin-left: 10px;
+	color: red;
+}
+
+/* FIN USER EDIT */
